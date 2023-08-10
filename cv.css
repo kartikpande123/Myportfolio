@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 10px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 24px;
+    color: #555;
+  }
+  .contact {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .section {
+    margin-top: 30px;
+  }
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .experience,
+  .education,
+  .languages,
+  .skills,
+  .hobbies {
+    margin-bottom: 30px;
+  }
+  .experience-title,
+  .education-title,
+  .languages-title,
+  .skills-title,
+  .hobbies-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  .experience-date,
+  .education-date {
+    color: #777;
+  }
+  .description {
+    margin-top: 10px;
+  }
+  .languages-list,
+  .skills-list,
+  .hobbies-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
+  }
+  .languages-list li,
+  .skills-list li,
+  .hobbies-list li {
+    margin-bottom: 5px;
+    color: #555;
+  }
